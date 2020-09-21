@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="Scala_FinalProject_Bixi,course4project,scala_finalproject_bixi_9593" />
+  </component>
+</project>
