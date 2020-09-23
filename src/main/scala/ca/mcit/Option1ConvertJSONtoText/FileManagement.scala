@@ -1,4 +1,4 @@
-package ca.mcit.option1
+package ca.mcit.Option1ConvertJSONtoText
 
 import ca.mcit.model.HadoopConnection
 import org.apache.hadoop.fs.Path
@@ -41,7 +41,7 @@ class FileManagement {
     }
     else {
     HadoopConnection.fs.copyFromLocalFile (srcPath,dstPath)
-    println (" Uploaded the new \"+ fileName+\".txt file to HDFS")
+    println (" Uploaded the new "+ fileName+".txt file to HDFS")
     }
   }
 }

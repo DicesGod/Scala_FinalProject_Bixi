@@ -1,4 +1,4 @@
-package ca.mcit.option1
+package ca.mcit.Option1ConvertJSONtoText
 
 import java.io.{BufferedWriter, File, FileWriter}
 

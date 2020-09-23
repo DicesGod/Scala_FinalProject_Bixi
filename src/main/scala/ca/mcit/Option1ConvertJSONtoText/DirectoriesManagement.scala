@@ -1,4 +1,4 @@
-package ca.mcit.option1
+package ca.mcit.Option1ConvertJSONtoText
 
 import ca.mcit.model.HadoopConnection
 import org.apache.hadoop.fs.Path

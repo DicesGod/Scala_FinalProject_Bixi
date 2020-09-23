@@ -1,8 +1,8 @@
-package ca.mcit.option1
+package ca.mcit.option2JSONSerDe
 
 import java.sql.{Connection, DriverManager, Statement}
 
-class DatabaseDeployment{
+class DatabaseDeployment2{
   val driverName: String = "org.apache.hive.jdbc.HiveDriver"
   Class.forName(driverName)
 
@@ -42,7 +42,7 @@ def createDBTables: Any = {
     "is_charging Boolean," +
     "eightd_has_key_dispenser Boolean," +
     "has_kiosk Boolean)" +
-    "ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE " +
+    "ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'" +
     "LOCATION '/user/fall2019/minhle/final_project/feed_data/station_information'")
   println("Database deployment:")
   println(" Created station_information table in s19909_bixi_feed_minhle database")
@@ -61,7 +61,7 @@ def createDBTables: Any = {
     "email STRING," +
     "license_url STRING," +
     "timezone STRING)" +
-    "ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE " +
+    "ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'" +
     "LOCATION '/user/fall2019/minhle/final_project/feed_data/system_information'")
   println(" Created system_information table in s19909_bixi_feed_minhle database")
 
@@ -73,7 +73,7 @@ def createDBTables: Any = {
     "summary STRING," +
     "description STRING," +
     "last_updated DOUBLE)" +
-    "ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE " +
+    "ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'" +
     "LOCATION '/user/fall2019/minhle/final_project/feed_data/system_alerts'")
   println(" Created system_alerts table in s19909_bixi_feed_minhle database")
 
@@ -91,7 +91,7 @@ def createDBTables: Any = {
     "last_reported DOUBLE," +
     "eightd_has_available_keys   boolean," +
     "is_charging boolean)" +
-    "ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE " +
+    "ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe'" +
     "LOCATION '/user/fall2019/minhle/final_project/feed_data/station_status'")
   println(" Created station_status table in s19909_bixi_feed_minhle database")
   }
