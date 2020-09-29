@@ -5,7 +5,7 @@ import java.io.{BufferedWriter, File, FileWriter}
 class GetJSONData {
   //Download and create file
   def createTxtFiles(fileName: String, json_data: String): Any = {
-    val file = new File("/Users/minhle/Desktop/Projects/Scala_FinalProject_Bixi/Feed/" + fileName + ".txt")
+    val file = new File("/Users/minhle/Desktop/Projects/Scala_FinalProject_Bixi/Feed/" + fileName + ".csv")
     val bw = new BufferedWriter(new FileWriter(file))
     bw.write(json_data)
     println(" Downloaded json_data of " + fileName + " to local")

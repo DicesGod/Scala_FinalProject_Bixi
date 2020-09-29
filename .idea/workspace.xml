@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21390031-eac0-40d1-9266-42711ba17c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/DatabaseDeployment2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/GetJSONData2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DatabaseDeployment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DirectoriesManagement.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/EnrichData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/FileManagement.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetListOfFiles.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed/station_information.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_information.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed/station_status.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_status.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed/system_alerts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_alerts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed/system_information.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_information.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option1/DatabaseDeployment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/DatabaseDeployment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option1/DirectoriesManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/DirectoriesManagement.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option1/FileManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/FileManagement.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option1/GetJSONData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/GetJSONData.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option1/Option1.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/DatabaseDeployment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/DirectoriesManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/FileManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/GetJSONData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/Option1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/Option1$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option1/Option1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/station_information.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/station_status.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/system_alerts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/system_information.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/GetJSONData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/Option1ConvertJSONtoText/GetJSONData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/Option1ConvertJSONtoText/GetJSONData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/Option1ConvertJSONtoText/GetJSONData.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +62,31 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.mcit.sprint2" />
       <recent name="ca.mcit.option2JSONSerDe" />
       <recent name="ca.mcit.option1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="JsonToAvroCsvParquet" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ca.mcit.option1.JsonToAvroCsvParquet" />
       <module name="Scala_FinalProject_Bixi" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.mcit.option2JSONSerDe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.sprint2.Main" />
+      <module name="Scala_FinalProject_Bixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.sprint2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,6 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JsonToAvroCsvParquet" />
         <item itemvalue="Application.Option1" />
@@ -228,48 +236,48 @@
       <screen x="0" y="23" width="1440" height="767" />
     </state>
     <state x="320" y="63" key="#Project_Structure/0.23.1440.767@0.23.1440.767" timestamp="1600565178193" />
-    <state x="458" y="175" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600888629189">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601402899802">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="458" y="169" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.746@0.23.1440.746" timestamp="1600666926673" />
     <state x="458" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.752@0.23.1440.752" timestamp="1600570529563" />
-    <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1600886443418" />
+    <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1601402899802" />
     <state x="458" y="175" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.773@0.23.1440.773" timestamp="1600888629189" />
-    <state width="1398" height="187" key="GridCell.Tab.0.bottom" timestamp="1600891283853">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1601404700836">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.746@0.23.1440.746" timestamp="1600708858814" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1600754421376" />
-    <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1600888761401" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1601403632687" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1601404700836" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1600891283853" />
-    <state width="1398" height="187" key="GridCell.Tab.0.center" timestamp="1600891283851">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1601404700835">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1600754421375" />
-    <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1600888761399" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1601403632687" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1601404700835" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1600891283851" />
-    <state width="1398" height="187" key="GridCell.Tab.0.left" timestamp="1600891283850">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1601404700833">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.760@0.23.1440.760" timestamp="1600715410570" />
-    <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1600754421375" />
-    <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1600888761399" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1601403632687" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1601404700833" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1600891283850" />
-    <state width="1398" height="187" key="GridCell.Tab.0.right" timestamp="1600891283852">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1601404700835">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1600754421376" />
-    <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1600888761400" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1601403632687" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1601404700835" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1600891283852" />
     <state width="1398" height="233" key="GridCell.Tab.1.bottom" timestamp="1600889704776">
       <screen x="0" y="23" width="1440" height="779" />
@@ -295,15 +303,17 @@
       <screen x="0" y="23" width="1440" height="767" />
     </state>
     <state x="221" y="35" key="SettingsEditor/0.23.1440.767@0.23.1440.767" timestamp="1600565235902" />
-    <state x="374" y="233" key="com.intellij.ide.util.TipDialog" timestamp="1600883525641">
+    <state x="374" y="233" key="com.intellij.ide.util.TipDialog" timestamp="1601396248721">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="374" y="230" key="com.intellij.ide.util.TipDialog/0.23.1440.746@0.23.1440.746" timestamp="1600616421809" />
     <state x="374" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.767@0.23.1440.767" timestamp="1600711976090" />
-    <state x="374" y="233" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1600883525641" />
-    <state x="385" y="114" width="670" height="676" key="search.everywhere.popup" timestamp="1600565207826">
-      <screen x="0" y="23" width="1440" height="767" />
+    <state x="374" y="233" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1601396248721" />
+    <state x="374" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.773@0.23.1440.773" timestamp="1601341324298" />
+    <state x="385" y="114" width="670" height="679" key="search.everywhere.popup" timestamp="1601349896686">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="385" y="114" width="670" height="676" key="search.everywhere.popup/0.23.1440.767@0.23.1440.767" timestamp="1600565207826" />
+    <state x="385" y="114" width="670" height="679" key="search.everywhere.popup/0.23.1440.770@0.23.1440.770" timestamp="1601349896686" />
   </component>
 </project>
