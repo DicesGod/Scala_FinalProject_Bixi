@@ -1,5 +1,5 @@
 data.stations.capacity,data.stations.eightd_has_key_dispenser,data.stations.electric_bike_surcharge_waiver,data.stations.external_id,data.stations.has_kiosk,data.stations.is_charging,data.stations.lat,data.stations.lon,data.stations.name,data.stations.rental_methods,data.stations.short_name,data.stations.station_id,last_updated,ttl
-31,false,false,"0b0fda98-08f3-11e7-a1cb-3863bb33a4e4",true,false,45.51016276368593,-73.55663707494385,"Métro Champ-de-Mars (Viger / Sanguinet)","CREDITCARD, KEY","6001","1",1601497383,10
+31,false,false,"0b0fda98-08f3-11e7-a1cb-3863bb33a4e4",true,false,45.51016276368593,-73.55663707494385,"Métro Champ-de-Mars (Viger / Sanguinet)","CREDITCARD, KEY","6001","1",1601499508,10
 19,false,false,"0b0fdf05-08f3-11e7-a1cb-3863bb33a4e4",true,false,45.539385081961676,-73.54099988937377,"Ste-Catherine / Dezery","CREDITCARD, KEY","6002","2",,
 15,false,false,"0b0fe114-08f3-11e7-a1cb-3863bb33a4e4",true,false,45.55792971727892,-73.52914988994598,"de Ville-Marie / Ste-Catherine","CREDITCARD, KEY","6003","3",,
 23,false,false,"0b0fe2b5-08f3-11e7-a1cb-3863bb33a4e4",true,false,45.50965520472071,-73.55400860309601,"du Champ-de-Mars / Gosford","CREDITCARD, KEY","6004","4",,

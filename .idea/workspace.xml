@@ -2,147 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21390031-eac0-40d1-9266-42711ba17c45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_agourlay_json_2_csv_2_12_0_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_tototoshi_scala_csv_2_12_1_3_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_jawn_ast_2_12_0_12_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_jawn_parser_2_12_0_12_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_jawn_util_2_12_0_12_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/ConvertJSONtoCSV.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_pathikrit_better_files_2_12_3_9_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Scala_FinalProject_Bixi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Scala_FinalProject_Bixi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/.part-00000-b7c205a8-d713-4378-b621-2352295c72e2-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/.part-00000-790ce11b-98ed-4e06-b6e9-4ece0e62fd45-c000.csv.crc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/station_information.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_information.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/station_information.json" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_information.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/system_information.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_information.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$01dc0e046837cf3fd223$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$01dc0e046837cf3fd223.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$01dc0e046837cf3fd223.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$169b43c20909a5a3941b$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$169b43c20909a5a3941b.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$169b43c20909a5a3941b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24c95fdef0e09f5a37be$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24c95fdef0e09f5a37be.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$24c95fdef0e09f5a37be.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2671423dc3e19254f652$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2671423dc3e19254f652.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2671423dc3e19254f652.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a7d8adf4067458e8996$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a7d8adf4067458e8996.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a7d8adf4067458e8996.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4c5fdeaa974d531027a8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4c5fdeaa974d531027a8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4c5fdeaa974d531027a8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f098a3d511e2582571f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f098a3d511e2582571f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4f098a3d511e2582571f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5c600a2ae8bd48506584$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5c600a2ae8bd48506584.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5c600a2ae8bd48506584.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c3054b879f3b5bfcd03$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c3054b879f3b5bfcd03.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c3054b879f3b5bfcd03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c784f72f42c3fafcf2f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c784f72f42c3fafcf2f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c784f72f42c3fafcf2f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b1cc61c6734929a15737$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b1cc61c6734929a15737.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b1cc61c6734929a15737.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b321c69f73a7fc95beb8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b321c69f73a7fc95beb8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b321c69f73a7fc95beb8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8934f8b85285fd2f181$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8934f8b85285fd2f181.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8934f8b85285fd2f181.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95e3bf1a8d28aeba121$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95e3bf1a8d28aeba121.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e95e3bf1a8d28aeba121.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f26c2b6a7d25da8f652e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f26c2b6a7d25da8f652e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f26c2b6a7d25da8f652e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f2b3318a4a0562c01f00$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f2b3318a4a0562c01f00.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f2b3318a4a0562c01f00.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala_finalproject_bixi-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala_finalproject_bixi-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala_finalproject_bixi-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala_finalproject_bixi-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala_finalproject_bixi-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/option2JSONSerDe/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DatabaseDeployment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DatabaseDeployment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/EnrichData.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONData.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/Main.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option2JSONSerDe/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option2JSONSerDe/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option2JSONSerDe/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/option2JSONSerDe/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/DatabaseDeployment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/DatabaseDeployment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/EnrichData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/EnrichData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/GetJSONData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala_finalproject_bixi_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala_finalproject_bixi_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/system_information.json" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_information.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/ConvertJSONtoCSV.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/ConvertJSONtoCSV.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONFile.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/GetJSONFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/GetJSONFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,19 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnrichData" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ca.mcit.sprint2.EnrichData" />
-      <module name="Scala_FinalProject_Bixi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.mcit.sprint2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EnrichData2" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ca.mcit.sprint2.EnrichData2" />
       <module name="Scala_FinalProject_Bixi" />
@@ -253,6 +109,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.mcit.option2JSONSerDe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ca.mcit.sprint2.test" />
+      <module name="Scala_FinalProject_Bixi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.mcit.sprint2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Boot" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.EnrichData2" />
-        <item itemvalue="Application.EnrichData" />
       </list>
     </recent_temporary>
   </component>
@@ -377,51 +246,51 @@
       <screen x="0" y="23" width="1440" height="767" />
     </state>
     <state x="320" y="63" key="#Project_Structure/0.23.1440.767@0.23.1440.767" timestamp="1600565178193" />
-    <state x="458" y="175" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601490396211">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601499324344">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="458" y="169" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.746@0.23.1440.746" timestamp="1600666926673" />
     <state x="458" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.752@0.23.1440.752" timestamp="1600570529563" />
-    <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1601402899802" />
+    <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1601499324344" />
     <state x="458" y="175" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.773@0.23.1440.773" timestamp="1601490396211" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1601497382317">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1601499514116">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.746@0.23.1440.746" timestamp="1600708858814" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1601491697454" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1601497382317" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1601499514116" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1601499086768" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1601482454196" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1601442649462" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1601497382316">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1601499514115">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1601491697453" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1601497382316" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1601499514115" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1601499086767" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1601482454195" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1601442649461" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1601497382315">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1601499514115">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.760@0.23.1440.760" timestamp="1600715410570" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1601491697452" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1601497382315" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1601499514115" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1601499086766" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1601482454195" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1601442649460" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1601497382317">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1601499514116">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1601491697454" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1601497382317" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1601499514116" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1601499086768" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1601482454196" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1601442649462" />
     <state width="1398" height="233" key="GridCell.Tab.1.bottom" timestamp="1600889704776">

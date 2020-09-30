@@ -1,27 +1,22 @@
 package ca.mcit.sprint2
 
-import java.io.{BufferedWriter, File, FileWriter}
+import java.io.File
+import java.net.URL
+import org.apache.commons.io.FileUtils
 
 class GetJSONFile {
-  //Download and create file
-  def createTxtFiles(fileName: String, json_data: String): Any = {
-    val file = new File("/Users/minhle/Desktop/Projects/Scala_FinalProject_Bixi/Feed/" + fileName + ".json")
-    val bw = new BufferedWriter(new FileWriter(file))
-    bw.write(json_data)
-    println(" Downloaded json_data of " + fileName + " to local")
-    bw.close()
-  }
-
-  //Get JSON data
+  //Get JSON files
   def getStation_information: Any = {
     try {
       //Download json_data of station_information
-      val fileName = "station_information"
-      val json_data = scala.io.Source.fromURL("https://api-core.bixi.com/gbfs/en/station_information.json")
-      val json_string = json_data.getLines().mkString
+      val FILE_URL = "https://api-core.bixi.com/gbfs/en/station_information.json"
+      val FILE_NAME = "Feed/station_information.json"
 
-      createTxtFiles(fileName, json_string)
-      json_data.close()
+      FileUtils.copyURLToFile(
+        new URL(FILE_URL),
+        new File(FILE_NAME))
+
+      println(" Downloaded json_data of " + FILE_NAME + " to local")
     }
     catch {
       case _: Exception => println("Connection error!")
@@ -32,12 +27,14 @@ class GetJSONFile {
     try {
       println("Download the Feed:")
       //Download json_data of station_information
-      val fileName = "system_information"
-      val json_data = scala.io.Source.fromURL("https://api-core.bixi.com/gbfs/en/system_information.json")
-      val json_string = json_data.getLines().mkString
+      val FILE_URL = "https://api-core.bixi.com/gbfs/en/system_information.json"
+      val FILE_NAME = "Feed/system_information.json"
 
-      createTxtFiles(fileName, json_string)
-      json_data.close()
+      FileUtils.copyURLToFile(
+        new URL(FILE_URL),
+        new File(FILE_NAME))
+
+      println(" Downloaded json_data of " + FILE_NAME + " to local")
     }
     catch {
       case _: Exception => println("Connection error!")
