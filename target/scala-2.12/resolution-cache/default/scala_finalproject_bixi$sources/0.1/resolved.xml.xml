@@ -4,7 +4,7 @@
 		module="scala_finalproject_bixi$sources"
 		revision="0.1"
 		status="integration"
-		publication="20200920104318"
+		publication="20200929204243"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -768,10 +768,6 @@
 		</dependency>
 		<dependency org="com.sun.jersey" name="jersey-core" rev="1.9" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
 			<artifact name="jersey-core" type="src" ext="jar" conf="*" e:classifier="sources"/>
-			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
-		</dependency>
-		<dependency org="net.sourceforge.f2j" name="arpack_combined_all" rev="0.1" transitive="false" conf="compile->compile,runtime(*),master(compile),runtime,compile(*),master;runtime->compile,runtime(*),master(compile),runtime,compile(*),master;test->compile,runtime(*),master(compile),runtime,compile(*),master;compile-internal->compile,runtime(*),master(compile),runtime,compile(*),master;runtime-internal->compile,runtime(*),master(compile),runtime,compile(*),master;test-internal->compile,runtime(*),master(compile),runtime,compile(*),master">
-			<artifact name="arpack_combined_all" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="org.scala-lang.modules" name="scala-xml_2.12" rev="1.0.5" transitive="false" conf="scala-tool->compile,runtime(*),master(compile),runtime,compile(*),master">

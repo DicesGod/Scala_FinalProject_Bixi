@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="scala_finalproject_bixi_2.12"
-		revision="0.1"
+		revision="0.3"
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200920104252"/>
+		date="20200929211908"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

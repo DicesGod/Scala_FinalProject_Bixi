@@ -1,9 +1,10 @@
 package ca.mcit.sprint2
 
 import java.io.File
+
 import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
 
-class EnrichData {
+class EnrichData{
   /** on Local */
   def enrich_sta_sys_info: Any = {
     val station_informationFileName = "Feed/station_information.csv"
@@ -13,18 +14,23 @@ class EnrichData {
     .appName ("Spark SQL practice").master ("local[*]")
     .getOrCreate ()
 
-    val system_informationDf: DataFrame = spark.read.option ("header", "false").option ("inferschema", "true").csv (system_informationFileName)
-    val station_informationDf: DataFrame = spark.read.option ("header", "false").option ("inferschema", "true").csv (station_informationFileName)
+    val system_informationDf: DataFrame = spark.read.option ("header", "true").option ("inferschema", "true").csv (system_informationFileName)
+    val station_informationDf: DataFrame = spark.read.option ("header", "true").option ("inferschema", "true").csv (station_informationFileName)
 
     system_informationDf.createOrReplaceTempView ("system_information")
     station_informationDf.createOrReplaceTempView ("station_information")
 
-    val enriched_info = spark.sql (
-    """SELECT sys._c0 system_id, sys._c1 language, sys._c2 name, sys._c3 short_name, sys._c4 operator, sys._c5 url, sys._c6 purchase_url, sys._c7 start_date, sys._c8 phone_number, sys._c9 email, sys._c10 license_url, sys._c11 timezone,
-      |sta._c0, sta._c1, sta._c2, sta._c3, sta._c4, sta._c5, sta._c6, sta._c7, sta._c8, sta._c9, sta._c10, sta._c11
-      |FROM system_information sys CROSS JOIN station_information sta
-      |""".stripMargin)
-    //.show()
+        val enriched_info = spark.sql (
+          """SELECT sys.last_updated, sys.ttl, `data.system_id`, `data.language`,`data.name`,
+            |`data.short_name`,`data.operator`,`data.url`,`data.purchase_url`,`data.start_date`,
+            |`data.phone_number`,`data.email`, `data.license_url`, `data.timezone`,
+            |`data.stations.station_id`, `data.stations.external_id`,
+            |`data.stations.name`, `data.stations.short_name`, `data.stations.lat`, `data.stations.lon`,
+            |`data.stations.rental_methods`, `data.stations.capacity`, `data.stations.electric_bike_surcharge_waiver`,
+            |`data.stations.is_charging`, `data.stations.eightd_has_key_dispenser`, `data.stations.has_kiosk`
+            |FROM system_information sys CROSS JOIN station_information sta
+            |""".stripMargin)
+          //.show()
 
     //Create enriched CSV file
     enriched_info.coalesce (1).write.mode (SaveMode.Overwrite).csv ("Feed/enriched_sta_sys_info/")

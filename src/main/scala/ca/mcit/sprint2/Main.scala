@@ -1,21 +1,24 @@
 package ca.mcit.sprint2
 
 object Main extends App{
-  val databaseDeployment = new DatabaseDeployment
-  val getJSONData = new GetJSONData
-  val fileManagement = new FileManagement
-  val directoriesManagement = new DirectoriesManagement
 
-  databaseDeployment.createDatabase
-  databaseDeployment.createEnrichedTb
+  val getJSONFile = new GetJSONFile
+  getJSONFile.getSystem_information
+  getJSONFile.getStation_information
 
-  directoriesManagement.createDirectories
-
-  getJSONData.convertStation_information
-  getJSONData.convertSystem_information
+  val convertJSONtoCSV = new ConvertJSONtoCSV
+  convertJSONtoCSV.convertJSONtoCSV
 
   val enrichData = new EnrichData
   enrichData.enrich_sta_sys_info
 
+  val databaseDeployment = new DatabaseDeployment
+  databaseDeployment.createDatabase
+  databaseDeployment.createEnrichedTb
+
+  val directoriesManagement = new DirectoriesManagement
+  directoriesManagement.createDirectories
+
+  val fileManagement = new FileManagement
   fileManagement.uploadFiles
 }

@@ -1,6 +1,6 @@
 name := "Scala_FinalProject_Bixi"
 
-version := "0.1"
+version := "0.3"
 
 scalaVersion := "2.12.0"
 
@@ -17,12 +17,12 @@ libraryDependencies += "au.com.bytecode" % "opencsv" % "2.4"
 libraryDependencies += "org.apache.hadoop" % "hadoop-common" % hadoopVersion
 libraryDependencies += "org.apache.hadoop" % "hadoop-hdfs" % hadoopVersion
 libraryDependencies += "org.apache.hive" % "hive-jdbc" % "1.1.0-cdh5.16.2"
-libraryDependencies += "com.github.pathikrit" %% "better-files" % btversion
 libraryDependencies += "org.apache.spark" %% "spark-core"                 % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-sql"                  % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-streaming"            % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-streaming-kafka-0-10" % sparkVersion
 libraryDependencies += "org.apache.spark" %% "spark-mllib"                % sparkVersion
+libraryDependencies += "com.github.agourlay" %% "json-2-csv" % "0.4.0"
 
 resolvers += "Cloudera" at "http://repository.cloudera.com/artifactory/cloudera-repos/"
 
