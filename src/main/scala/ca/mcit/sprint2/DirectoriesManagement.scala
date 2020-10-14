@@ -3,10 +3,10 @@ package ca.mcit.sprint2
 import ca.mcit.model.HadoopConnection
 import org.apache.hadoop.fs.Path
 
-class DirectoriesManagement {
+object DirectoriesManagement {
 
   //create Directory method
-  def createDirectory(filePath: Path,directory_name: String): Any = {
+  def createDirectory(filePath: Path,directory_name: String): Unit = {
     try {
       if (HadoopConnection.fs.exists(filePath)) {
         println(" "+ directory_name+ " directory already exists")
@@ -22,7 +22,7 @@ class DirectoriesManagement {
   }
 
   //Manage directories on HDFS
-  def createDirectories: Any = {
+  def createDirectories: Unit = {
     println("DATA PIPELINE INSTALLATION: ")
     var filePath = new Path("/user/fall2019/minhle/final_project/feed_data")
     createDirectory(filePath,"feed_data")

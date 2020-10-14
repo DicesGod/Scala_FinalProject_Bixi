@@ -4,37 +4,37 @@ import java.io.File
 import java.net.URL
 import org.apache.commons.io.FileUtils
 
-class GetJSONFile {
+object GetJSONFile {
   //Get JSON files
-  def getStation_information: Any = {
+  def getStationInformation: Unit = {
     try {
       //Download json_data of station_information
-      val FILE_URL = "https://api-core.bixi.com/gbfs/en/station_information.json"
-      val FILE_NAME = "Feed/station_information.json"
+      val fileURL = "https://api-core.bixi.com/gbfs/en/station_information.json"
+      val fileName = "Feed/station_information.json"
 
       FileUtils.copyURLToFile(
-        new URL(FILE_URL),
-        new File(FILE_NAME))
+        new URL(fileURL),
+        new File(fileName))
 
-      println(" Downloaded json_data of " + FILE_NAME + " to local")
+      println(" Downloaded json_data of " + fileName + " to local")
     }
     catch {
       case _: Exception => println("Connection error!")
     }
   }
 
-  def getSystem_information: Any = {
+  def getSystemInformation: Unit = {
     try {
       println("Download the Feed:")
       //Download json_data of station_information
-      val FILE_URL = "https://api-core.bixi.com/gbfs/en/system_information.json"
-      val FILE_NAME = "Feed/system_information.json"
+      val fileURL = "https://api-core.bixi.com/gbfs/en/system_information.json"
+      val fileName = "Feed/system_information.json"
 
       FileUtils.copyURLToFile(
-        new URL(FILE_URL),
-        new File(FILE_NAME))
+        new URL(fileURL),
+        new File(fileName))
 
-      println(" Downloaded json_data of " + FILE_NAME + " to local")
+      println(" Downloaded json_data of " + fileName + " to local")
     }
     catch {
       case _: Exception => println("Connection error!")

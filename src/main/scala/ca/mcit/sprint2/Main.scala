@@ -1,24 +1,22 @@
 package ca.mcit.sprint2
 
 object Main extends App{
+  try {
+    GetJSONFile.getSystemInformation
+    GetJSONFile.getStationInformation
 
-  val getJSONFile = new GetJSONFile
-  getJSONFile.getSystem_information
-  getJSONFile.getStation_information
+    ConvertJSONtoCSV.convertJSONtoCSV
 
-  val convertJSONtoCSV = new ConvertJSONtoCSV
-  convertJSONtoCSV.convertJSONtoCSV
+    EnrichData.enrichStationsSystemInfo
 
-  val enrichData = new EnrichData
-  enrichData.enrich_sta_sys_info
+    DatabaseDeployment.createDatabase
+    DatabaseDeployment.createEnrichedTb
 
-  val databaseDeployment = new DatabaseDeployment
-  databaseDeployment.createDatabase
-  databaseDeployment.createEnrichedTb
+    DirectoriesManagement.createDirectories
 
-  val directoriesManagement = new DirectoriesManagement
-  directoriesManagement.createDirectories
-
-  val fileManagement = new FileManagement
-  fileManagement.uploadFiles
+    FileManagement.uploadFiles
+  }
+  catch {
+    case _: Exception => println("Connection error! Please try again")
+  }
 }

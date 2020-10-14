@@ -1,21 +1,22 @@
 package ca.mcit.sprint2
 
 import java.io.File
-
 import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
 
-class EnrichData{
+object EnrichData{
   /** on Local */
-  def enrich_sta_sys_info: Any = {
-    val station_informationFileName = "Feed/station_information.csv"
-    val system_informationFileName = "Feed/system_information.csv"
+  def enrichStationsSystemInfo: Unit = {
+    val stationInformationFileName = "Feed/station_information.csv"
+    val systemInformationFileName = "Feed/system_information.csv"
 
     val spark: SparkSession = SparkSession.builder ()
     .appName ("Spark SQL practice").master ("local[*]")
     .getOrCreate ()
 
-    val system_informationDf: DataFrame = spark.read.option ("header", "true").option ("inferschema", "true").csv (system_informationFileName)
-    val station_informationDf: DataFrame = spark.read.option ("header", "true").option ("inferschema", "true").csv (station_informationFileName)
+    val system_informationDf: DataFrame = spark.read.option ("header", "true").option ("inferschema", "true")
+      .csv (systemInformationFileName)
+    val station_informationDf: DataFrame = spark.read.option ("header", "true").option ("inferschema", "true")
+      .csv (stationInformationFileName)
 
     system_informationDf.createOrReplaceTempView ("system_information")
     station_informationDf.createOrReplaceTempView ("station_information")
@@ -30,7 +31,6 @@ class EnrichData{
             |`data.stations.is_charging`, `data.stations.eightd_has_key_dispenser`, `data.stations.has_kiosk`
             |FROM system_information sys CROSS JOIN station_information sta
             |""".stripMargin)
-          //.show()
 
     //Create enriched CSV file
     enriched_info.coalesce (1).write.mode (SaveMode.Overwrite).csv ("Feed/enriched_sta_sys_info/")

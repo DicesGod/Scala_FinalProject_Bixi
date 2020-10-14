@@ -3,9 +3,9 @@ package ca.mcit.sprint2
 import ca.mcit.model.HadoopConnection
 import org.apache.hadoop.fs.Path
 
-class FileManagement {
+object FileManagement {
   //uploadFile to HDFS
-  def uploadFiles: Any = {
+  def uploadFiles: Unit = {
     try {
       println("File Management:")
       val filePath = new Path("/user/fall2019/minhle/final_project/feed_data/enriched_station_system_information/enriched_sta_sys_info.csv")
@@ -18,7 +18,7 @@ class FileManagement {
     }
   }
 
-  def uploadFile(fileName: String,filePath: Path,srcPath: Path,dstPath: Path): Any = {
+  def uploadFile(fileName: String,filePath: Path,srcPath: Path,dstPath: Path): Unit = {
     if (HadoopConnection.fs.exists (filePath))  {
     HadoopConnection.fs.delete (filePath, true)
     HadoopConnection.fs.copyFromLocalFile (srcPath,dstPath)

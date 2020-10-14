@@ -3,15 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="21390031-eac0-40d1-9266-42711ba17c45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/.part-00000-790ce11b-98ed-4e06-b6e9-4ece0e62fd45-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/.part-00000-9698d023-ad64-4316-86f7-d92a34e022d6-c000.csv.crc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/enriched_sta_sys_info/enriched_sys_sta_info.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/station_information.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_information.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/station_information.json" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/station_information.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/system_information.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_information.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Feed/system_information.json" beforeDir="false" afterPath="$PROJECT_DIR$/Feed/system_information.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/ConvertJSONtoCSV.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/ConvertJSONtoCSV.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DatabaseDeployment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DatabaseDeployment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DirectoriesManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/DirectoriesManagement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/EnrichData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/EnrichData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/FileManagement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/FileManagement.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/GetJSONFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/GetJSONFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/GetJSONFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ca/mcit/sprint2/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/ConvertJSONtoCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/ConvertJSONtoCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/ca/mcit/sprint2/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,43 +260,43 @@
     <state x="458" y="170" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.752@0.23.1440.752" timestamp="1600570529563" />
     <state x="458" y="174" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.770@0.23.1440.770" timestamp="1601499324344" />
     <state x="458" y="175" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.773@0.23.1440.773" timestamp="1601490396211" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1601499514116">
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1602718051661">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.746@0.23.1440.746" timestamp="1600708858814" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1601499514116" />
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.770@0.23.1440.770" timestamp="1602718051661" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.773@0.23.1440.773" timestamp="1601499086768" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.779@0.23.1440.779" timestamp="1601482454196" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.783@0.23.1440.783" timestamp="1601442649462" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1601499514115">
+    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1602718051659">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1601499514115" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.770@0.23.1440.770" timestamp="1602718051659" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.773@0.23.1440.773" timestamp="1601499086767" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.779@0.23.1440.779" timestamp="1601482454195" />
     <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.783@0.23.1440.783" timestamp="1601442649461" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1601499514115">
+    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1602718051658">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.760@0.23.1440.760" timestamp="1600715410570" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1601499514115" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.770@0.23.1440.770" timestamp="1602718051658" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.773@0.23.1440.773" timestamp="1601499086766" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.779@0.23.1440.779" timestamp="1601482454195" />
     <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.783@0.23.1440.783" timestamp="1601442649460" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1601499514116">
+    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1602718051660">
       <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.746@0.23.1440.746" timestamp="1600708858813" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.752@0.23.1440.752" timestamp="1600715035430" />
     <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.760@0.23.1440.760" timestamp="1600715410571" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1601499514116" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.770@0.23.1440.770" timestamp="1602718051660" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.773@0.23.1440.773" timestamp="1601499086768" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.779@0.23.1440.779" timestamp="1601482454196" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.783@0.23.1440.783" timestamp="1601442649462" />
@@ -317,12 +324,12 @@
       <screen x="0" y="23" width="1440" height="767" />
     </state>
     <state x="221" y="35" key="SettingsEditor/0.23.1440.767@0.23.1440.767" timestamp="1600565235902" />
-    <state x="374" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1601481399401">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state x="374" y="233" key="com.intellij.ide.util.TipDialog" timestamp="1602692106730">
+      <screen x="0" y="23" width="1440" height="770" />
     </state>
     <state x="374" y="230" key="com.intellij.ide.util.TipDialog/0.23.1440.746@0.23.1440.746" timestamp="1600616421809" />
     <state x="374" y="232" key="com.intellij.ide.util.TipDialog/0.23.1440.767@0.23.1440.767" timestamp="1600711976090" />
-    <state x="374" y="233" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1601396248721" />
+    <state x="374" y="233" key="com.intellij.ide.util.TipDialog/0.23.1440.770@0.23.1440.770" timestamp="1602692106730" />
     <state x="374" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.773@0.23.1440.773" timestamp="1601430088708" />
     <state x="374" y="236" key="com.intellij.ide.util.TipDialog/0.23.1440.779@0.23.1440.779" timestamp="1601481399401" />
     <state x="385" y="114" width="670" height="679" key="search.everywhere.popup" timestamp="1601349896686">
